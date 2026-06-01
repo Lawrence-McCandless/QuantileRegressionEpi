@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "QuantileRegressionEpi"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    
+  pdf:
+    toc: true
+    number-sections: true
+
+editor: visual
+
+execute:
+  freeze: false
