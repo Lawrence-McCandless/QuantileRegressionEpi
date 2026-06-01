@@ -27,7 +27,7 @@ E-mail: `lmccandl@sfu.ca`
 
 R codes and a synthetic version of the PMS dataset used are available from the GitHub repository for this monograph:
 
-<https://github.com/Lawrence-McCandless/QuantileRegressionEpidemiology>
+<https://github.com/Lawrence-McCandless/QuantitleRegressionEpi>
 :::
 
 **Key words and phrases:** Quantile regression, gestational age, preterm birth, pregnancy outcomes, epidemiology, statistical modeling.
