@@ -20,6 +20,7 @@ format:
     toc: true
     
   pdf:
+    documentclass: article
     toc: true
     number-sections: true
 
