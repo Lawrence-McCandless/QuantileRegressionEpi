@@ -1,4 +1,4 @@
-# QuantitleRegressionEpi
+# QuantileRegressionEpi
 
 This repository contains Quarto source files, R code, figures, tables, and synthetic data associated with the methodological monograph:
 
@@ -12,7 +12,7 @@ E-mail: `lmccandl@sfu.ca`
 
 The rendered Quarto website is available at:
 
-https://lawrence-mccandless.github.io/QuantitleRegressionEpi/
+https://lawrence-mccandless.github.io/QuantileRegressionEpi/
 
 ## Repository Contents
 
