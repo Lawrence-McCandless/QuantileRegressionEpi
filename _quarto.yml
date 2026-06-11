@@ -3,7 +3,9 @@ project:
   output-dir: docs
 
 website:
-  title: "QuantileRegressionEpi"
+  title: "Quantile Regression of Gestational Age and Preterm Birth"
+  site-url: "https://lawrence-mccandless.github.io/QuantileRegressionEpi/"
+  description: "Quantile regression methods for gestational age, preterm birth, and epidemiology research by Lawrence McCandless."
   navbar:
     left:
       - href: index.qmd
@@ -18,6 +20,11 @@ format:
       - brand
     css: styles.css
     toc: true
+    
+    meta:
+      description: "Quantile regression methods for gestational age, preterm birth, and epidemiology research by Lawrence McCandless."
+      keywords: "quantile regression, preterm birth, gestational age, epidemiology, Bayesian quantile regression, Lawrence McCandless"
+
     
   pdf:
     documentclass: article

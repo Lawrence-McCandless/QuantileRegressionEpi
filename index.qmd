@@ -2,7 +2,7 @@
 title: "Quantile regression of gestational age and preterm birth for epidemiology research"
 subtitle: "Tutorial Essay and Methodological Note"
 author: "Lawrence McCandless"
-date: "June 2026"
+date: "June 10, 2026"
 bibliography: report.bib
 format:
   html:
