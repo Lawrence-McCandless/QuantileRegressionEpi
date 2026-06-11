@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Quantile Regression of Gestational Age and Preterm Birth"
+  title: "QuantileRegressionEpi"
   site-url: "https://lawrence-mccandless.github.io/QuantileRegressionEpi/"
   description: "Quantile regression methods for gestational age, preterm birth, and epidemiology research by Lawrence McCandless."
   navbar:

@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2026-06-10">
 <meta name="keywords" content="Quantile regression, gestational age, preterm birth, pregnancy outcomes, epidemiology, statistical modeling">
 
-<title>Quantile regression of gestational age and preterm birth for epidemiology research – Quantile Regression of Gestational Age and Preterm Birth</title>
+<title>Quantile regression of gestational age and preterm birth for epidemiology research – QuantileRegressionEpi</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -165,7 +165,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Quantile Regression of Gestational Age and Preterm Birth</span>
+    <span class="navbar-title">QuantileRegressionEpi</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -553,8 +553,7 @@ Figure&nbsp;3: Results of multivariable quantile regression with as the dependen
 </figcaption>
 </figure>
 </div>
-<p>Consider the distribution of gestational age of female infants. It is already known that females have slightly shorter average duration of pregnancy than males among full-term births in many human populations <span class="citation" data-cites="Divon2002">(<a href="#ref-Divon2002" role="doc-biblioref">Divon et al. 2002</a>)</span>. But the difference between males and females is small (e.g.&nbsp;280.6 days for males versus 279.8 days for females by one estimate <span class="citation" data-cites="Divon2002">(<a href="#ref-Divon2002" role="doc-biblioref">Divon et al. 2002</a>)</span>). Thus we already know that the effect of sex on gestational age is non-zero. But it is also unlikely to be exactly equal to 1.0 days because a single day is an arbitrary unit of measurement. In this example, the size of the target parameters is roughly the same as the size of the rounding error in the gestational age scale. The simplex algorithm for fitting quantile regression gives results where the accuracy of estimates is influenced by the discreteness of the outcome in way that is seems unreasonable.</p>
-<p>A further consequence of the implausible point estimates is that it propagates into the calculation of confidence intervals and p-values for uncertainty assessment. The standard errors by default are produced using the option <code>se="nid"</code> computed under the assumption that gestational age is continuous and that the errors are not independent and identically distributed. A review of statistical inference in quantile regression is beyond the scope of this monograph, but importantly, the default t-values and p-values from the quantreg package depend on these implausible estimates.</p>
+<p>Consider the distribution of gestational age of female infants. It is already known that females have slightly shorter average duration of pregnancy than males among full-term births in many human populations <span class="citation" data-cites="Divon2002">(<a href="#ref-Divon2002" role="doc-biblioref">Divon et al. 2002</a>)</span>. But the difference between males and females is small (e.g.&nbsp;280.6 days for males versus 279.8 days for females by one estimate <span class="citation" data-cites="Divon2002">(<a href="#ref-Divon2002" role="doc-biblioref">Divon et al. 2002</a>)</span>). Thus we already know that the effect of sex on gestational age is non-zero. But it is also unlikely to be equal to 1.0 days because a single day is an arbitrary unit of measurement. In this example, the size of the unknown regression coefficient is roughly the same as the size of the rounding error in the gestational age scale. The simplex algorithm for fitting quantile regression gives results where the accuracy of estimates is influenced by the discreteness of the outcome in way that is seems unreasonable.</p>
 </section>
 <section id="dither-a-remedy-for-implausible-results-in-quantile-regression-with-discrete-outcomes" class="level1" data-number="5">
 <h1 data-number="5"><span class="header-section-number">5</span> Dither: A remedy for implausible results in quantile regression with discrete outcomes</h1>
